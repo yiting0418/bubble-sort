@@ -1,8 +1,8 @@
-# Bubble Sort
+# 氣泡排序法 (Bubble Sort)
 
-Implementation of the Bubble Sort algorithm in Python.
+Python 實現的氣泡排序演算法。
 
-## Usage
+## 使用方式
 
 ```python
 from bubble_sort import bubble_sort
@@ -12,13 +12,13 @@ sorted_numbers = bubble_sort(numbers)
 print(sorted_numbers)  # [11, 12, 22, 25, 34, 64, 90]
 ```
 
-## Algorithm
+## 演算法特性
 
-- Time Complexity: O(n²)
-- Space Complexity: O(1)
-- Stable: Yes
+- 時間複雜度：O(n²)
+- 空間複雜度：O(1)
+- 穩定排序：是
 
-## Run
+## 執行
 
 ```bash
 python bubble_sort/bubble_sort.py
