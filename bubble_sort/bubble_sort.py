@@ -1,4 +1,10 @@
 def bubble_sort(arr):
+    """
+    Bubble Sort 演算法
+    時間複雜度: O(n^2)
+    空間複雜度: O(1)
+    穩定排序: 是
+    """
     n = len(arr)
     for i in range(n):
         for j in range(0, n - i - 1):
